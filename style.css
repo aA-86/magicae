@@ -1,0 +1,47 @@
+* {
+    color: white;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 20px;
+    /* font-family: "Hedvig+Letters+Sans", sans-serif; */
+}
+
+
+html, 
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+img {
+    width: 500px;
+}
+
+@media only screen and (max-width: 1100px) {
+    img {
+        width: 300px;
+    }
+
+    * {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    img {
+        width: 200px;
+    }
+
+    * {
+        font-size: 13px;
+    }
+}
